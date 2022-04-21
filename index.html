@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="suwi.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+
+    <title>COUNTRIES</title>
+</head>
+
+<body>
+    <header class="header">
+        <h2>WORLD</h2>
+        <div class="theme-box" onclick="toggleTheme()">
+            <ion-icon name="moon-outline"></ion-icon>
+            <p id="dark-mode-text">Dark Mode</p>
+        </div>
+    </header>
+
+    <main class="main">
+        
+
+        <section class="countries-box" id="countries-box">
+            <div class = "list" id = "list"></div>
+            <div class = "pagenumbers" id="pagination" style="position: absolute;top: 103%;"></div>
+        </section>
+    </main>
+
+    <section class="details-section">
+        <input type="button" value="Back" onclick="back()" class="back-btn">
+        <div class="details-grid">
+            <div class="details-flag">
+                <img src="https://flagcdn.com/de.svg">
+            </div>
+            <div class="text-grid">
+                <h3>India</h3>
+                    <p>Native Name: <span class="native-name">India</span></p>
+                    <p>Population: <span class="population">India</span></p>
+                    <p>Region: <span class="region">India</span></p>
+                    <p>Sub Region: <span class="sub-region">India</span></p>
+                    <p>Capital: <span class="capital">India</span></p>
+                    <p>Currencies: <span class="currencies">India</span></p>
+            </div>
+            
+        </div>  
+    </section>
+
+
+    <script src="suwi.js"></script>
+    
+</body>
+
+</html>
